@@ -49,6 +49,7 @@
 		66BBF2BF1F9BD3110035CB4C /* AROneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AROneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66BBF2C31F9BD3110035CB4C /* AROneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AROneUITests.swift; sourceTree = "<group>"; };
 		66BBF2C51F9BD3110035CB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66D5E4F31FA8A08C00E393A8 /* mercury.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mercury.jpg; path = art.scnassets/mercury.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		66BBF2A01F9BD3110035CB4C /* AROne */ = {
 			isa = PBXGroup;
 			children = (
+				66D5E4F31FA8A08C00E393A8 /* mercury.jpg */,
 				66BBF2A11F9BD3110035CB4C /* AppDelegate.swift */,
 				66BBF2A31F9BD3110035CB4C /* art.scnassets */,
 				66BBF2A51F9BD3110035CB4C /* ViewController.swift */,
@@ -430,12 +432,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXZ4W6ZJ63;
 				INFOPLIST_FILE = AROne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.isteer.AROne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,12 +450,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXZ4W6ZJ63;
 				INFOPLIST_FILE = AROne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.isteer.AROne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
